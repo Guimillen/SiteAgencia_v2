@@ -6,7 +6,7 @@ Nesta versão:
 1. Melhoria na responsividade;
 2. Melhoria na identação;
 3. Recriação da página de cadastro;
-4. Acesso e Manipulação do BD MySql, utilizando Tomcat10;
+4. Acesso e Manipulação do BD MySql em JAVA utilizando o @WebServLet;
 5. Mudança de todas as tags de estilo para um external css;
 
 
