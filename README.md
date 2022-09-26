@@ -1,6 +1,8 @@
 Olá, Esta é a segunda versão do website Agencia de viagens, entrega 3 da RecodePro.
 
+Aluno: Guilherme Millen Azevedo
 
+SiteAgencia_v2
 Nesta versão:
 
 1. Melhoria na responsividade;
@@ -17,3 +19,6 @@ Esta versão é a primeira tentativa de fazer um cadastro de clientes usando as 
 A parte de compra de passagens e agendamento de viagem ainda estão em construção.
 
 Na pasta "Em Construção" contém classes que ainda estão em construção, o modelo UML e scripts SQL. (Opcional)
+
+
+> Dúvidas e Sugestões: millen.guilherme@gmail.com <
