@@ -17,7 +17,7 @@ public class ClienteDao implements CRUD {
 	private static String sql;
 	
 	public static void create(Cliente cliente) {
-		 sql = "INSERT INTO clientes VALUES (null, ?, ?, ?, ?)";
+		 sql = "INSERT INTO cliente VALUES (null, ?, ?, ?, ?)";
 		 
 		 try {
 			 PreparedStatement preparedStatement = connection.prepareStatement(sql);
@@ -37,7 +37,7 @@ public class ClienteDao implements CRUD {
 	}
 	
 	public static void delete(int clienteId) {
-		sql = "DELETE FROM clientes WHERE id = ?";
+		sql = "DELETE FROM cliente WHERE id = ?";
 		
 		try {
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
@@ -54,8 +54,8 @@ public class ClienteDao implements CRUD {
 	
 	public static List<Cliente> find(String pesquisa){
 		
-		sql = String.format("SELECT * FROM clientes WHERE nome like '%s%%' OR cpf LIKE '%s%%' ", pesquisa, pesquisa);
-		List<Cliente> clientes = new ArrayList<Cliente>();
+		sql = String.format("SELECT * FROM cliente WHERE nome like '%s%%' OR cpf LIKE '%s%%' ", pesquisa, pesquisa);
+		List<Cliente> cliente = new ArrayList<Cliente>();
 		
 		try {
 			Statement statement = connection.createStatement();
@@ -63,23 +63,23 @@ public class ClienteDao implements CRUD {
 			
 			while (resultSet.next()) {
 				
-				Cliente cliente = new Cliente();
+				Cliente cliente1 = new Cliente();
 				
-				cliente.setId(resultSet.getInt("id"));
-				cliente.setNome(resultSet.getString("nome"));
-				cliente.setCpf(resultSet.getString("cpf"));
-				cliente.setNascimento(resultSet.getString("nascimento"));
-				cliente.setSituacao(resultSet.getString("situacao"));
+				cliente1.setId(resultSet.getInt("id"));
+				cliente1.setNome(resultSet.getString("nome"));
+				cliente1.setCpf(resultSet.getString("cpf"));
+				cliente1.setNascimento(resultSet.getString("nascimento"));
+				cliente1.setSituacao(resultSet.getString("situacao"));
 				
-				clientes.add(cliente);
+
 				
 			}
 			
-			System.out.println("--correct find clientes");
-			return clientes;
+			System.out.println("--correct find cliente");
+			return cliente;
 			
 		} catch(SQLException e) {
-			System.out.println("--incorrect find clientes. " + e.getMessage());
+			System.out.println("--incorrect find cliente. " + e.getMessage());
 			return null;
 		}
 		
@@ -87,7 +87,7 @@ public class ClienteDao implements CRUD {
 	}
 	
 	public static Cliente findByPk(int clienteId) {
-		sql = String.format("SELECT * FROM clientes WHERE id = %d ", clienteId);
+		sql = String.format("SELECT * FROM cliente WHERE id = %d ", clienteId);
 		
 		try {
 			Statement statement = connection.createStatement();
@@ -102,18 +102,18 @@ public class ClienteDao implements CRUD {
 				cliente.setSituacao(resultSet.getString("situacao"));
 			}
 			
-			System.out.println("--correct find by pk clientes");
+			System.out.println("--correct find by pk cliente");
 			return cliente;
 			
 	} catch(SQLException e) {
 		
-			System.out.println("--incorrect find by pk clientes. " + e.getMessage());
+			System.out.println("--incorrect find by pk cliente" + e.getMessage());
 			return null;
 		}
 	}
 	
 	public static void update(Cliente cliente) {
-		sql = "UPDATE clientes SET nome=?, cpf=?, nascimento=?, situacao=? WHERE id=?";
+		sql = "UPDATE cliente SET nome=?, cpf=?, nascimento=?, situacao=? WHERE id=?";
 		 
 		 try {
 			 PreparedStatement preparedStatement = connection.prepareStatement(sql);
