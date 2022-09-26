@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alterar Senha</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  
+</head>
+
+
+
+<body class="background_home">
+
+  <nav class="navbar navbar-inverse" style= "background-color: #5563a391;">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="./Quem_somos.html">Agência de Viagens</a>
+      </div>
+      <div>
+      <ul class="nav navbar-nav">
+        <li><a href="./Home.html">Home</a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Destino <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            
+            <li><a href="./Destino_nacionais.html">Nacionais</a></li>
+            <li><a href="./Destino_internacionais.html">Internacionais</a></li>
+            </ul>
+        </li>
+        <li><a href="./Promoções.html">Promoções</a></li>
+       <li><a href="./Contato.html">Contato</a></li>
+       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><strong>Minha Conta </strong><span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          
+          <li><a href="./Senha_esquecida.html">Alterar Senha</a></li>
+          <li><a href="./Quem_somos.html">Quem Somos</a></li>
+          <li><a href="./Promoções.html">Promoções</a></li>
+          <li><a href="./Contato.html">Contato</a></li>
+          <li><a href="./Login.html">Sair</a></li>
+      
+      </ul>
+    
+  </nav>
+  
+<h2 class="header_cadastro">Entre com Seu e-mail<br></h2>
+  <div class="containerSenha">
+    <form class="row g-3">
+      <div class="col-12">
+        <label for="inputEmail4" class="form-label">E-mail</label>
+        <input type="email" class="form-control" id="inputEmail4">
+      </div>
+      <br>
+
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+             Eu desejo fazer a alteração da minha senha.
+          </label>
+        </div>
+      </div>
+      <div class="botao">
+        <br>
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Confirmar</button></span>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br>
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog">
+          
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Senha alterada com sucesso!</h4>
+              </div>
+              <div class="modal-body">
+                <p>Sua nova senha foi enviada para o seu e-mail. Aguarde alguns minutos e confira sua caixa de entrada.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        
+      </div>
+      </div>
+    </form>
+  </div>
+  <footer class="bg-light text-center text-lg-start">
+    <img class="footer_img" src="./footer.png" alt="parceiros"><br>
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-dark" href="./entrega1">Guilherme Millen Azevedo, RecodePro 2022 - Módulo 2 Atividade prática individual</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+    
+
+
+
+
+
+
+  </body>
+
+
+
+</html>

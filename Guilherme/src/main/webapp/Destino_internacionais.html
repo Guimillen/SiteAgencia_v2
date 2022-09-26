@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internacionais</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+
+
+
+<body class="background_home">
+
+
+
+  <nav class="navbar navbar-inverse" style= "background-color: #5563a391;">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="./Quem_somos.html">Agência de Viagens</a>
+      </div>
+      <div>
+      <ul class="nav navbar-nav">
+        <li><a href="./Home.html">Home</a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Destino <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            
+            <li><a href="./Destino_nacionais.html">Nacionais</a></li>
+            <li><a href="./Destino_internacionais.html">Internacionais</a></li>
+            </ul>
+        </li>
+        <li><a href="./Promoções.html">Promoções</a></li>
+       <li><a href="./Contato.html">Contato</a></li>
+       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><strong>Minha Conta </strong><span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          
+          <li><a href="./Senha_esquecida.html">Alterar Senha</a></li>
+          <li><a href="./Quem_somos.html">Quem Somos</a></li>
+          <li><a href="./Promoções.html">Promoções</a></li>
+          <li><a href="./Contato.html">Contato</a></li>
+          <li><a href="./Login.html">Sair</a></li>
+      
+      </ul>
+    
+  </nav>
+
+
+
+<h2 class="header_cadastro">Escolha o seu destino e boa viagem!<br></h2>
+
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="./foto4.png" alt="NY" style="width:100%;">
+    </div>
+
+    <div class="item">
+      <img src="foto5.png" alt="PARIS" style="width:100%;">
+    </div>
+  
+    <div class="item">
+      <img src="foto6.png" alt="DUBAI" style="width:100%;">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Anterior</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Próximo</span>
+  </a>
+</div>
+<br><br><br><br><br><br><br><br>
+</div>
+
+
+  <div class="containerDestino">
+    <form class="row g-3">
+        <div class="col-12">
+          <label for="inputState" class="form-label">Origem</label>
+          <select id="inputState" class="form-select">
+            <option selected>Escolha...</option>
+            <option>Belo Horizonte - MG</option>
+            <option>Rio de Janeiro - RJ</option>
+            <option>São Paulo - SP</option>
+          </select>
+        </div>
+        <br><br>
+        <div class="col-12">
+          <label for="inputState" class="form-label">Destino</label>
+            <select id="inputState" class="form-select">
+              <option selected>Escolha...</option>
+              <option>New York - US</option>
+              <option>Paris - FR</option>
+              <option>Dubai - DB</option>
+            </select>
+        </div>
+      </div>
+      <div class="botao">
+        <br>
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Agendar Viagem!</button>
+ 
+        <br></br><br></br><br></br><br></br><br></br><br><br>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog">
+          
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Viagem Agendada com sucesso!</h4>
+              </div>
+              <div class="modal-body">
+                <p>Um Voucher de viagem foi enviado para seu e-mail. Tenha o voucher impresso ou digital, juntamente com documento original com foto na hora do embarque, pois isso irá facilitar sua identificação. Obrigado por Viajar Conosco!</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        
+      </div>
+      </div>
+    </form>
+  </div>
+  <footer class="bg-light text-center text-lg-start">
+    <img class="footer_img" src="./footer.png" alt="parceiros"><br>
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-dark" href="./entrega1">Guilherme Millen Azevedo, RecodePro 2022 - Módulo 2 Atividade prática individual</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  
+
+
+
+
+  </body>
+
+
+
+</html>

@@ -1,0 +1,214 @@
+
+        
+        .video_promocoes{
+                        
+    text-align: center;
+    margin-top: 2%;
+    
+    
+    }
+    
+        .header_cadastro{
+    
+    background-color: #5563a391;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: ghostwhite;
+    font-size: 30pt;
+    
+    }
+    
+        .dropdown2{
+    
+    color:rgb(43, 211, 43);
+    font-size: 16pt;
+    text-align: right;
+    margin-left:900px;
+    
+    }
+    
+        .carousel{
+    
+    height:380px;
+    width: 968px;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    margin-left: 15%;
+    
+    
+    }
+    
+        .form-label{
+    
+    color: ghostwhite;
+
+    font-size:16pt;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+        
+    }
+    
+    
+        .form-check-label{
+    
+    
+    color:ghostwhite;
+    
+    
+        }
+    
+       
+    
+        .background_home{
+    
+          background-color: rgb(5, 3, 34);
+    
+    
+    }
+        
+        .container{
+    
+    text-align: justify;
+    width: 640px;
+    height: 600px;
+    margin-top:3%
+   
+    
+    
+    }
+    
+        .footer_img{
+    
+    margin-left:150px;
+    margin-right:150px;
+    text-align:center;
+    height:100px;
+    width:600px;
+    
+    }
+        .canva{
+    margin-left:12%;
+   
+    
+        }
+        .contato{
+
+color: black;
+background-color: cornflowerblue;
+margin-top:5%;
+margin-bottom: 10%;
+
+
+
+        }
+
+    .contatoHeader{
+
+color: ghostwhite;
+margin-top:2%;
+text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+
+
+
+    }
+
+    .containerDestino{
+
+        margin-top:10%;
+        margin-bottom:5%;
+        margin-left:33%;
+        margin-right:5%;
+        width:400px;
+        text-align:center;
+        
+        
+        }
+
+        .botao{
+            margin-left: 33%;
+    }
+
+        .botao2{
+
+        margin-left: 42%;
+        
+            }
+
+        .form-select{
+
+        width:400px;
+        font-size:12pt;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        
+        }
+
+        .containerLogin{
+
+
+      
+            margin-top:10%;
+            margin-bottom:5%;
+            margin-left:33%;
+            margin-right:5%;
+            width:400px;
+            text-align:center;
+            font-size:12pt;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+            
+            
+            }
+
+
+            .containerPromo{
+
+                margin-top:10%;
+                margin-bottom:5%;
+                margin-left:33%;
+                margin-right:5%;
+                width:400px;
+                text-align:center;
+                
+                
+                    }
+
+            .qm_somos{
+
+            padding:10%;
+            text-align: justify;
+            color: ghostwhite;
+            background-color: rgb(rgb(235, 197, 197));
+            border: 5px;
+            border-style: double;
+            margin-left: 15%;
+            margin-right:15%;
+            font-size: 20pt;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+                        
+                        }
+
+            
+            .containerSenha{
+
+
+      
+            margin-top:10%;
+            margin-bottom:5%;
+             margin-left:33%;
+            margin-right:5%;
+            width:400px;
+            text-align:center;
+            font-size:12pt;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+                            
+                                }
+                            
+
+
+
+        
