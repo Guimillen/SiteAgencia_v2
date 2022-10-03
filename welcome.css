@@ -1,0 +1,35 @@
+
+
+.background_img{
+
+background-image: url(./welcome.jpg);
+opacity: 0.5;
+
+
+
+
+
+}
+
+
+.welcome{
+
+text-align: center;
+margin-top: 15%;
+color:black;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+}
+
+
+
+.fowardButton{
+
+text-align:center;
+
+
+
+
+}
